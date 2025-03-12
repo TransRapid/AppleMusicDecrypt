@@ -1,11 +1,11 @@
 [region]
 # Used when the song region cannot be obtained, currently only used for m3u8 command and mitm command
 # Recommend value: Your Apple Music's subscription region
-defaultStorefront = "jp"
+defaultStorefront = "en-US"
 # The language of song metadata. Influence song title, author and other information.
 # Simplified Chinese: zh-Hans-CN, Tradidional Chinese(Hong Kong): zh-Hant-HK, Tradidional Chinese(Taiwan): zh-Hant-TW
 # English(British): en-GB, English(American): en-US, Japanese: ja, Korean: ko
-language = "zh-Hans-CN"
+language = "en-US"
 
 [[devices]]
 # ADB service host of Android device
@@ -66,13 +66,13 @@ songNameFormat = "{disk}-{tracknum:02d} {title}"
 # title, artist, album, album_artist, composer,
 # genre, created, track, tracknum, disk, album_created
 # record_company, upc, isrc, copyright, codec, album_id
-dirPathFormat = "downloads/{album_artist}/{album}"
+dirPathFormat = "Downloads/{album_artist}/{album}"
 # Available values:
 # title, artist, album, album_artist, composer,
 # genre, created, track, tracknum, disk,
 # record_company, upc, isrc, copyright,
 # playlistName, playlistCuratorName, codec
-playlistDirPathFormat = "downloads/playlists/{playlistName}"
+playlistDirPathFormat = "Downloads/playlists/{playlistName}"
 # Available values:
 # title, artist, album, album_artist, composer,
 # genre, created, track, tracknum, disk,
